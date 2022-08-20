@@ -14,4 +14,5 @@ function toggle(button)
 }
 
 const rootApp = document.getElementById("root");
-rootApp.innerHTML = '<input type = "button" value = "ON" id = "button" onclick = "toggle();"/>'
+// rootApp.innerHTML = '<input type = "button" value = "ON" id = "button" onclick = "toggle();"/>'
+rootApp.innerHTML =  '<button>ON</button>';
